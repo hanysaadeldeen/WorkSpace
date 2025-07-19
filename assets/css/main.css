@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Almarai", sans-serif
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#aboutUs,
+#gallary,
+#dservices,
+#whyUs,
+#location {
+    scroll-margin-top: 120px;
+}
+
+section {
+    margin-bottom: 240px;
+}
+
+@media (max-width:1024px) {
+    section {
+        margin-bottom: 120px;
+    }
+
+    #aboutUs,
+    #gallary,
+    #dservices,
+    #whyUs,
+    #location {
+        scroll-margin-top: 60px;
+    }
+}
+
+.gradient {
+    background: linear-gradient(to right, #E8E0FF, #FFFDD3);
+}
+
+.shadowM {
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.16);
+    transition: .2s ease-in-out;
+    cursor: pointer;
+}
+
+.shadowM:hover {
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.1)
+}
