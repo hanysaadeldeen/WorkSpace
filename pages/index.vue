@@ -2,16 +2,17 @@
   <main>
     <div :dir="locale === 'ar' ? 'rtl' : 'ltr'">
       <HeroSection />
-      <div class="max-w-[1384px] mx-auto px-5">
+      <div class="max-w-[1384px] mx-auto max-2xl:px-5">
         <AboutUsSection />
         <GallerySection />
       </div>
     </div>
     <ClientsSection />
-    <div class="max-w-[1384px] mx-auto px-5" :dir="locale === 'ar' ? 'rtl' : 'ltr'">
+    <div class="max-w-[1384px] mx-auto max-2xl:px-5" :dir="locale === 'ar' ? 'rtl' : 'ltr'">
       <AudienceSections />
       <ServicesSection />
       <FeaturesSection />
+      <CompetitorsUsSection />
     </div>
   </main>
 </template>

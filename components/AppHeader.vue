@@ -24,7 +24,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="#whyUs">
+                        <a href="#CompetitorsUs">
                             لماذا نحن
                         </a>
                     </li>
@@ -80,7 +80,7 @@
                         </li>
                         <li @click="toggleSidebar">
 
-                            <a href="#whyUs">
+                            <a href="#CompetitorsUs">
                                 لماذا نحن
                             </a>
                         </li>
