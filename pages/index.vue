@@ -18,6 +18,8 @@
       <CTASection />
       <FAQSection />
     </div>
+    <CTAOfferSection />
+
   </main>
 </template>
 <script setup>

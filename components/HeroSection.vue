@@ -12,10 +12,11 @@
             <div class="max-w-[904px] mx-auto ">
                 <div class="flex flex-col justify-center items-center ">
                     <button class="shadow flex justify-center items-center gap-2 rounded-full py-3 px-6 mb-6 bg-white ">
+                        <span class="rounded-full bg-primary w-[10px] h-[10px]" />
                         <span class="inline-block text-buttonText font-bold text-sm">
                             ابدأ عملك بثقة
                         </span>
-                        <span class="rounded-full bg-primary w-[10px] h-[10px]" />
+
                     </button>
                     <div class="TitleAndDescription">
                         <h1 class="text-center font-bold text-3xl md:text-4xl mb-4 ">كل شيء جاهز... لا ينقصه إلا أن
