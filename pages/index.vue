@@ -13,6 +13,8 @@
       <ServicesSection />
       <FeaturesSection />
       <CompetitorsUsSection />
+      <OurLocationSection />
+      <VideoSection />
     </div>
   </main>
 </template>

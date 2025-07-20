@@ -26,7 +26,7 @@
                             الأولى، تجد مكتبك
                             مُعدًّا،
                             والإنترنت
-                            يعمل، والبيئة مهيّأة لمساعدتك على التركيز.  نوفر لك كل ما تحتاج، لتبدأ عملك فورًا.</p>
+                            يعمل، والبيئة مهيّأة لمساعدتك على التركيز. نوفر لك كل ما تحتاج، لتبدأ عملك فورًا.</p>
                     </div>
                     <div class="Service mt-7 md:mt-14  flex justify-center items-center md:gap-x-20 gap-10  flex-wrap">
                         <div class="flex justify-center items-end gap-2">
