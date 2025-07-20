@@ -70,8 +70,8 @@
         <p class="text-center text-paragraphTwo font-normal text-sm md:text-base">الآن بعد أن عرفت الفرق، خُذ خطوتك نحو
           مساحة عمل تدعم نجاحك.</p>
       </div>
-      <div class="md:max-w-[225px] mx-auto">
-        <ContactButton title="احجز مكانك اليوم" background="#FFF422" border="#C6B900">
+      <div class="md:max-w-[255px] mx-auto">
+        <ContactButton title="احجز مكانك اليوم" background="#FFF422" border="#C6B900" link="tel:+966502765770">
           <img src="~/assets/img/Util/calendar (3) 1.svg" alt="whatsapp" class="max-w-5 max-h-5" width="20px"
             height="20px" loading="lazy">
         </ContactButton>

@@ -19,7 +19,7 @@
           احترافية،
           مصمّمة لدعم إنتاجيتك منذ اللحظة الأولى .<br>استفد من عرض الشهر المجاني — دون شروط أو التزامات.</p>
         <ContactButton title="احجز شهرك المجاني الآن" background="#FFF422" border="#C6B900"
-          class="w-full sm:w-fit mx-auto">
+          link="https://wa.me/966502765770" class="w-full sm:w-fit mx-auto">
           <img src="~/assets/img/Util/calendar (3) 1.svg" alt="whatsapp" class="max-w-5 max-h-5" width="20px"
             height="20px" loading="lazy">
         </ContactButton>

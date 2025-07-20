@@ -1,6 +1,6 @@
 <template>
   <section>
-    <div class="shadowB px-4 py-8 md:py-12 lg:py-16 rounded-3xl border border-secondary w-full">
+    <div class="shadowB px-4 py-8 md:py-12 lg:py-16 rounded-3xl border border-[#E6D800] w-full">
       <div class="py-2 px-6 text-sm font-bold text-paragraphTwo rounded-full bg-secondary w-fit mx-auto mb-8">عرض
         محدود
       </div>
@@ -9,8 +9,8 @@
         <p class="text-center text-paragraphTwo font-normal text-sm md:text-base">مساحة عمل مجهّزة بالكامل، بدون
           التزامات أو شروط مسبقة<br> نحن واثقون أن التجربة وحدها كفيلة بإقناعك.</p>
       </div>
-      <div class="md:max-w-[225px] mx-auto w-fit mt-6 md:mt-8">
-        <ContactButton title="احجز مكانك اليوم" background="#FFF422" border="#C6B900">
+      <div class="md:max-w-[255px] mx-auto w-fit mt-6 md:mt-8">
+        <ContactButton title="احجز مكانك اليوم" background="#FFF422" border="#C6B900" link="https://wa.me/966502765770">
           <img src="~/assets/img/Util/calendar (3) 1.svg" alt="whatsapp" class="max-w-5 max-h-5" width="20px"
             height="20px" loading="lazy">
         </ContactButton>
@@ -56,12 +56,12 @@ const TestCards = [
 
 <style scoped>
 .shadowB {
-  box-shadow: 0 0 16px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
   transition: .2s ease-in-out;
   cursor: pointer;
 }
 
 .shadowB:hover {
-  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1)
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2)
 }
 </style>

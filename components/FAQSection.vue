@@ -46,11 +46,12 @@
           مستعد للإجابة ومساعدتك في أي وقت.</p>
       </div>
       <div class="flex  gap-4 md:gap-14 flex-wrap justify-center items-center">
-        <ContactButton title="راسلنا على واتساب" background="#FFF422" border="#C6B900">
+        <ContactButton title="راسلنا على واتساب" background="#FFF422" border="#C6B900"
+          link="https://wa.me/966502765770">
           <img src="~/assets/img/heroSection/whatsapp (5) 1.svg" alt="whatsapp" class="max-w-5 max-h-5" width="20px"
             height="20px" loading="lazy">
         </ContactButton>
-        <ContactButton title="تواصل معنا هاتفيًا" background="#AF99FF" border="#6D4DD1">
+        <ContactButton title="تواصل معنا هاتفيًا" background="#AF99FF" border="#6D4DD1" link="tel:+966502765770">
           <img src="~/assets/img/heroSection/phone-call (2) 1.svg" alt="phone-call" class="max-w-5 max-h-5" width="20px"
             height="20px" loading="lazy">
         </ContactButton>

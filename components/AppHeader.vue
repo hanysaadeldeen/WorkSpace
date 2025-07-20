@@ -6,7 +6,7 @@
                     width="132" height="56" />
             </nuxt-link>
             <nav class="shadow hidden lg:block fixed top-14 left-1/2  mx-4 -translate-x-1/2 z-30 bg-white text-primary-dark px-4
-        md:px-10 pb-2 md:pb-4 pt-3 md:pt-[13px]  rounded-full w-full md:w-[591px] ">
+        md:px-10 pb-2 md:pb-4 pt-3 md:pt-[13px]  rounded-full w-full md:w-[591px] border  border-[#E2E2E2] ">
                 <ul class=" flex gap-4 md:gap-10 justify-between items-center">
                     <li>
                         <a href="#aboutUs">
@@ -29,7 +29,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="#location">
+                        <a href="#OurLocation">
                             الموقع
                         </a>
                     </li>
@@ -38,8 +38,11 @@
             <div class="gap-10 justify-between items-center  z-30 relative hidden lg:flex">
                 <LanguageSwitcher class=" flex" />
                 <button
-                    class="shadow contact bg-transparent border-2 border-primary rounded-full text-primary transition-all duration-300 ease-in-out hover:text-white hover:border-transparent hover:bg-primary font-bold text-sm py-2 px-6">تواصل
-                    معنا</button>
+                    class="shadow contact bg-transparent border-2 border-primary rounded-full text-primary transition-all duration-300 ease-in-out hover:text-white hover:border-transparent hover:bg-primary font-bold text-sm py-2 px-6">
+                    <a href="https://wa.me/966502765770" target="_blank">
+                        تواصل معنا
+                    </a>
+                </button>
             </div>
             <div class="relative block lg:hidden  z-30 text-TextD hover:text-primary">
                 <AlignLeft @click="toggleSidebar"
@@ -85,7 +88,7 @@
                             </a>
                         </li>
                         <li @click="toggleSidebar">
-                            <a href="#location">
+                            <a href="#OurLocation">
                                 الموقع
                             </a>
                         </li>

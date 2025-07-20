@@ -18,8 +18,8 @@
               <h1 class="font-bold text-xl text-TextD">مساحة العمل الذكي</h1>
               <p class="font-normal text-base text-TextD">اﻟﺤﻤﺮاء ‪ -‬ﻣﺮﻛﺰ ﻓﻠﺴﻄﻴﻦ اﻟﺘﺠﺎري ‪ -‬اﻟﺪور اﻷول ﻣﻜﺘﺐ ‪١٢‬‬</p>
             </div>
-            <ContactButton title="احصل علي الاتجاهات" background="#AF99FF" border="#6D4DD1"
-              class="w-full sm:max-w-[251px]">
+            <ContactButton title="احصل علي الاتجاهات" background="#AF99FF" border="#6D4DD1" link="#"
+              class="w-full sm:max-w-[255px]">
               <img src="~/assets/img/location/directions.svg" alt="directions" class="max-w-5 max-h-5" width="20px"
                 height="20px" loading="lazy">
             </ContactButton>
@@ -40,8 +40,8 @@
             class="shadowM flex gap-6 justify-start items-center rounded-3xl border border-borderPrimary bg-background px-4 md:px-8 py-4 md:py-5">
             <img :src="card.img" :alt="card.title" class="w-12 h-12" width="48px" height="48px">
             <div class="space-y-1">
-              <p class="text-base font-bold  text-TextD">قريب من المترو</p>
-              <p class="text-base font-normal  text-paragraph">5 دقائق سيرًا من محطة المترو</p>
+              <p class="text-base font-bold  text-TextD">{{ card.title }}</p>
+              <p class="text-base font-normal  text-paragraph">{{ card.description }}</p>
             </div>
           </div>
         </div>
