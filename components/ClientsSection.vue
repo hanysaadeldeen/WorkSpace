@@ -5,7 +5,8 @@
         <Vue3Marquee duration=100 :direction="locale === 'en' ? 'reverse' : ''" :pause-on-hover="true">
             <img v-for="item in Clients.slice(0, 18)" :src="item.logo" :key="item.id" class="max-w-[90px] mx-8" />
         </Vue3Marquee>
-        <Vue3Marquee duration=100 :direction="locale === 'ar' ? 'reverse' : ''" :pause-on-hover="true" class="mt-5">
+        <Vue3Marquee duration=100 :direction="locale === 'ar' ? 'reverse' : ''" :pause-on-hover="true"
+            class="mt-5 md:mt-10">
             <img v-for="item in Clients.slice(18)" :src="item.logo" :key="item.id" class="max-w-[90px] mx-8" />
         </Vue3Marquee>
     </section>

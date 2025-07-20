@@ -4,8 +4,11 @@
       description="سواء كنت تعمل وحدك أو مع فريق، لدينا المساحة التي تناسبك تمامًا." withButton
       buttonTitle="لكل فئة مساحة تناسبها" />
     <div class="grid grid-cols-1 gap-7 sm:grid-cols-2 md:gap-14">
-      <div class="shadowM rounded-3xl bg-background" v-for="Audience in Audiences">
-        <img :src="Audience.img" :alt="Audience.title" loading="lazy" class="object-contain rounded-t-3xl">
+      <div class="shadowM rounded-3xl bg-background group" v-for="Audience in Audiences">
+        <div class="rounded-3xl  overflow-hidden">
+          <img :src="Audience.img" :alt="Audience.title" loading="lazy"
+            class="object-contain rounded-t-3xl group-hover:scale-110 transition-all duration-300 ease-in-out">
+        </div>
         <div class="p-8 md:p-12">
           <div class="mb-4 md:mb-8">
             <h1 class="font-bold text-2xl md:text-3xl mb-2">{{ Audience.title }}</h1>
