@@ -15,6 +15,8 @@
       <CompetitorsUsSection />
       <OurLocationSection />
       <VideoSection />
+      <CTASection />
+      <FAQSection />
     </div>
   </main>
 </template>
