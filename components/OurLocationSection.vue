@@ -6,7 +6,7 @@
     <div class="grid grid-cols-2 gap-7 lg:gap-14 justify-center max-xl:grid-cols-1 items-center">
       <div class="relative rounded-3xl md:max-w-[664px] h-full min-h-[500px]  mx-auto group overflow-hidden">
         <div class="absolute top-0 left-0 w-full h-full z-10 bg-[#000000] bg-opacity-50 rounded-3xl"></div>
-        <img src="~/assets/img/location/OurLocation.jpg" alt="OurLocation"
+        <img src="~/assets/img/location/OurLocation.png" alt="OurLocation"
           class="w-full h-full object-cover rounded-3xl cursor-pointer group-hover:scale-110 transition duration-500" />
         <span class="absolute top-[40%] left-1/2 -translate-y-1/2 -translate-x-1/2 cursor-pointer z-20">
           <a href="https://maps.app.goo.gl/3b18QciPyWcb6o2N7" target="_blank">

@@ -96,7 +96,7 @@
                 </nav>
                 <div class="relative gap-8 mt-8 justify-between items-start  z-20  flex flex-col"
                     @click="toggleSidebar">
-                    <LanguageSwitcher class="" />
+                    <!-- <LanguageSwitcher class="" /> -->
                     <a href="https://wa.me/966502765770" target="_blank">
                         <span
                             class="block shadow contact bg-transparent border-2 border-primary rounded-full text-primary transition-all duration-300 ease-in-out hover:text-white hover:border-transparent hover:bg-primary font-bold text-sm py-2 px-6">

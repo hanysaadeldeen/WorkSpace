@@ -36,8 +36,31 @@
                     </div>
                 </div>
             </div>
-            <div>
-                <img src="~/assets/img/about/aboutImg.svg" alt="Office" loading="lazy" width="664" height="520">
+            <div class="relative rounded-3xl p-4 md:p-8 gradient">
+                <div class="absolute top-12 md:top-24 right-7 sm:right-14 md:right-20 xl:right-[108px]  ">
+                    <div
+                        class="border border-[#E8E0FF] bg-[#FFFFFF] text-TextD font-bold text-xs p-2 md:p-4 max-w-[104px] rounded-2xl text-center leading-[19.2px]">
+                        مساحات مرنة
+                        ومريحة</div>
+                </div>
+                <div class="absolute top-12 md:top-24 left-7 sm:left-14 md:left-28 xl:left-[172px]  ">
+                    <div
+                        class="border border-[#E8E0FF] bg-[#FFFFFF] text-TextD font-bold text-xs p-2 md:p-4 max-w-[104px] rounded-2xl text-center leading-[19.2px]">
+                        موقع مركزي وحيوي</div>
+                </div>
+                <div class="absolute bottom-12 md:bottom-28 right-7 sm:right-14 md:right-20 xl:right-[148px] ">
+                    <div
+                        class="border border-[#E8E0FF] bg-[#FFFFFF] text-TextD font-bold text-xs p-2 md:p-4 max-w-[104px] rounded-2xl text-center leading-[19.2px]">
+                        مساحات مرنة
+                        ومريحة</div>
+                </div>
+                <div class="absolute bottom-12 md:bottom-28 left-7 sm:left-14 md:left-20 xl:left-[108px] ">
+                    <div
+                        class="border border-[#E8E0FF] bg-[#FFFFFF] text-TextD font-bold text-xs p-2 md:p-4 max-w-[104px] rounded-2xl text-center leading-[19.2px]">
+                        موقع مركزي وحيوي</div>
+                </div>
+                <img src="~/assets/img/about/about.png" class="rounded-3xl max-h-[464px]" alt="Office" loading="lazy"
+                    width="664" height="520">
             </div>
         </div>
     </section>
