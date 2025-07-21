@@ -32,7 +32,8 @@
         <div class="mb-6 md:mb-12">
           <div class="space-y-4 max-md:text-center">
             <h1 class="font-bold text-2xl md:text-4xl text-TextD">لماذا هذا الموقع مميز؟</h1>
-            <p class="font-normal text-base md:text-lg text-TextD">اخترنا موقعًا يجمع بين سهولة الوصول والخدمات ليمنحك
+            <p class="font-normal text-base md:text-lg text-paragraphTwo">اخترنا موقعًا يجمع بين سهولة الوصول والخدمات
+              ليمنحك
               تجربة عمل
               مريحة ومنتجة.</p>
           </div>

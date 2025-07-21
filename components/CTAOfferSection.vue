@@ -43,7 +43,8 @@
       </div>
 
     </div>
-    <div class="rounded-3xl border border-paragraphTwo  py-6 md:py-10 space-y-2 max-w-[664px] mx-auto bg-white/10">
+    <div
+      class="shadowL rounded-3xl border border-paragraphTwo  py-6 md:py-10 space-y-2 max-w-[664px] mx-auto bg-white/10">
       <div class="flex justify-center items-center gap-2">
         <img src="~/assets/img/ctaOffer/gift.svg" alt="gift">
         <h1 class="text-white font-bold !leading-[32px] text-xl text-center">عرض محدود ينتهي قريبًا</h1>
@@ -61,5 +62,15 @@ const { locale } = useI18n();
 <style scoped>
 .gradientT {
   background: linear-gradient(to right, rgba(203, 190, 255, 0.1), rgba(255, 249, 140, 0.1));
+}
+
+.shadowL {
+  box-shadow: 0 0 3px rgba(255, 244, 34, 0.1);
+  transition: .2s ease-in-out;
+  cursor: pointer;
+}
+
+.shadowL:hover {
+  box-shadow: 0 0 16px rgba(255, 244, 34, 0.2);
 }
 </style>

@@ -6,7 +6,7 @@
       </div>
       <div class="flex flex-col justify-center items-center gap-4 ">
         <h1 class="text-center font-bold text-2xl md:text-4xl ">تجربة مجانية لمدة شهر كامل</h1>
-        <p class="text-center text-paragraphTwo font-normal text-sm md:text-base">مساحة عمل مجهّزة بالكامل، بدون
+        <p class="text-center text-paragraphTwo font-normal text-sm md:text-lg">مساحة عمل مجهّزة بالكامل، بدون
           التزامات أو شروط مسبقة<br> نحن واثقون أن التجربة وحدها كفيلة بإقناعك.</p>
       </div>
       <div class="md:max-w-[255px] mx-auto w-fit mt-6 md:mt-8">

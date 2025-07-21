@@ -5,9 +5,9 @@
       buttonTitle="لكل فئة مساحة تناسبها" />
     <div class="grid grid-cols-1 gap-7 sm:grid-cols-2 md:gap-14">
       <div class="shadowM rounded-3xl bg-background group" v-for="Audience in Audiences">
-        <div class="rounded-3xl  overflow-hidden">
+        <div class="rounded-t-3xl overflow-hidden">
           <img :src="Audience.img" :alt="Audience.title" loading="lazy"
-            class="object-contain rounded-t-3xl group-hover:scale-110 transition-all duration-300 ease-in-out">
+            class="object-contain group-hover:scale-110 transition-all duration-300 ease-in-out">
         </div>
         <div class="p-8 md:p-12">
           <div class="mb-4 md:mb-8">

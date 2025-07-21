@@ -10,7 +10,7 @@
           </nuxt-link>
           <div class="content max-w-[304px]">
             <p class="text-base font-normal text-TextD">
-              صفحة مساحة العمل – أحد حلول <span class="font-bold underline cursor-pointer"> DO</span> <br>
+              مساحة العمل – أحد حلول <span class="font-bold underline cursor-pointer"> DO</span> <br>
               لتبدأ عملك في
               بيئة تواكب طموحك.
             </p>

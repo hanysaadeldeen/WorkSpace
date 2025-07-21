@@ -3,7 +3,7 @@
     <section
         class="HeroSection relative min-h-[calc(100dvh-76px)] lg:min-h-[calc(100dvh-112px)] flex justify-centere  items-center ">
         <div
-            class=" absolute left-0 w-full h-[calc(100%+76px)] lg:h-[calc(100%+112px)] -top-[76px] lg:-top-[112px] z-10 bg-white opacity-80">
+            class=" absolute left-0 w-full h-[calc(100%+76px)] lg:h-[calc(100%+112px)] -top-[76px] lg:-top-[112px] z-10 bg-white opacity-85">
         </div>
         <div
             class="bgImg absolute left-0 w-full h-[calc(100%+76px)] lg:h-[calc(100%+112px)] -top-[76px] lg:-top-[112px] -z-40  ">
@@ -22,7 +22,7 @@
                         <h1 class="text-center font-bold text-3xl md:text-4xl mb-4 ">كل شيء جاهز... لا ينقصه إلا أن
                             تبدأ.
                         </h1>
-                        <p class="text-paragraphTwo font-normal text-sm md:text-base md:max-w-[664px] text-center">منذ
+                        <p class="text-paragraphTwo font-normal text-sm md:text-lg md:max-w-[664px] text-center">منذ
                             اللحظة
                             الأولى، تجد مكتبك
                             مُعدًّا،
