@@ -4,6 +4,8 @@
     <slot />
     <AppFooter :dir="locale === 'ar' ? 'rtl' : 'ltr'" />
     <ScrollToTop />
+    <WhatsUpScroll />
+
   </div>
 </template>
 

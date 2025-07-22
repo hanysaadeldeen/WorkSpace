@@ -2,7 +2,6 @@
 export default defineNuxtConfig({
   compatibilityDate: "2025-05-15",
   devtools: { enabled: true },
-  
   css: ["~/assets/css/main.css"],
   modules: ["nuxt-lucide-icons", "@nuxtjs/i18n"],
   components: [
@@ -21,7 +20,7 @@ export default defineNuxtConfig({
     detectBrowserLanguage: false,
   },
   app: {
-    baseURL: '/workspace/',
+    baseURL: "/workspace/",
     head: {
       script: [],
       link: [
@@ -43,7 +42,8 @@ export default defineNuxtConfig({
       meta: [
         {
           name: "description",
-          content: "انضم إلى بيئة عمل احترافية، مصمّمة لدعم إنتاجيتك منذ اللحظة الأولى.  استفد من عرض الشهر المجاني — دون شروط أو التزامات.",
+          content:
+            "انضم إلى بيئة عمل احترافية، مصمّمة لدعم إنتاجيتك منذ اللحظة الأولى. استفد من عرض الشهر المجاني — دون شروط أو التزامات.",
         },
       ],
     },
